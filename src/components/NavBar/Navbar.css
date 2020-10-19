@@ -1,0 +1,21 @@
+.navbar{
+    color:white;
+    
+    display: flex;
+    padding:20px;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+
+}
+/* We cannot use justiycontent here as in smaller screen no space would be there between elements*/
+.navbar > h2{
+    opacity: 0.7;
+    transition: transform 50ms ease-out;
+    margin:25px;
+    cursor: pointer;
+}
+.navbar > h2:hover{
+    opacity: 1;
+    transform:scale(1.2)
+}
